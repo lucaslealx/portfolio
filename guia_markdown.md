@@ -26,3 +26,16 @@ Para destacar seu texto, também é possível utilizar tanto **negrito** / __neg
 
 Já para incluir imagens, vamos utilizar o `![]()` passando dentro dos colchetes o texto alternativo e dentro dos parênteses a imagem
 ![Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg)
+
+Se quisermos incluir uma imagem com um tamanho específico, devemos utilizar o HTML   
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="50" height="50">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="50" height="50">
+
+Obs: esses links foram obtidos do [devicon](https://devicon.dev/)
+
+Se quiseremos criar blocos de código, também podemos usar 3 aspas e passar a linguagem
+```python
+for i in range(1,10):
+  print(i)
+```
+          
